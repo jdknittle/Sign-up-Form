@@ -37,41 +37,48 @@
           </p>
           <p>You know you want to.</p>
         </section>
-        <section class="info">
-          <p>Let's do this!</p>
-          <form action="post"></form>
-          <div class="input-wrapper">
-            <div class="firstName">
-              <label for="first_name">FIRST NAME</label>
-              <input type="name" name="first_name" id="first_name" />
-            </div>
-            <div class="lastName">
-              <label for="last_name">LAST NAME</label>
-              <input type="name" name="last_name" id="last_name" />
-            </div>
-            <div class="email">
-              <label for="email">EMAIL</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div class="number">
-              <label for="number">PHONE NUMBER</label>
-              <input type="number" name="number" id="number" />
-            </div>
-            <div class="password">
-              <label for="password">PASSWORD</label
-              ><input type="password" name="password" id="password" />
-            </div>
-            <div class="confirm">
-              <label for="confirm">CONFIRM PASSWORD</label>
-              <input type="password" name="password" id="password" />
-            </div>
-          </div>
-        </section>
+        <form action="post">
+          <section class="info">
+            <p>Let's do this!</p>
 
-        <section class="sign-up">
-          <button class="submit" type="submit">Create Account</button>
-          <p>Already have an account? <span>Log in</span></p>
-        </section>
+            <div class="input-wrapper">
+              <div class="firstName">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" name="first_name" id="first_name" required />
+              </div>
+              <div class="lastName">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" name="last_name" id="last_name" required />
+              </div>
+              <div class="email">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="number">
+                <label for="number">PHONE NUMBER</label>
+                <input type="number" name="number" id="number" required />
+              </div>
+              <div class="password">
+                <label for="password">PASSWORD</label
+                ><input
+                  type="password"
+                  name="password"
+                  id="password"
+                  required
+                />
+              </div>
+              <div class="confirm">
+                <label for="confirm">CONFIRM PASSWORD</label>
+                <input type="password" name="password" id="password" required />
+              </div>
+            </div>
+          </section>
+
+          <section class="sign-up">
+            <button class="submit" type="submit">Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+          </section>
+        </form>
       </div>
     </div>
   </body>
