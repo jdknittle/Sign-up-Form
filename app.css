@@ -1,10 +1,99 @@
-.sidebar {
-  height: 100px;
-  width: 40%;
-  background-image: url("images/background.jpg");
+body {
+  margin: 0;
+  padding: 0;
 }
 
-section {
-  width: 60%;
-  border: 1px solid red;
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  height: 100vh;
+  width: 40%;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+
+.content {
+  height: 100vh;
+  width: 50%;
+  padding-left: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-container {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.odin-image {
+  height: 5rem;
+  width: 4rem;
+}
+.odin-text {
+  color: white;
+  font-family: "Righteous", cursive;
+}
+.intro p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.intro {
+  padding-top: 15%;
+}
+
+.info {
+  height: 40vh;
+  width: 35rem;
+  margin: 2rem 0;
+}
+
+.info label {
+  font-size: 0.6rem;
+}
+
+.info p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.firstName,
+.lastName,
+.email,
+.number,
+.password,
+.confirm {
+  display: flex;
+  flex-direction: column;
+}
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.input-wrapper input {
+  width: 10rem;
+  border-radius: 3px;
+  color: gray;
+}
+
+.submit {
+  color: white;
+  background-color: #596d48;
+  border-radius: 5px;
+  width: 10rem;
+  height: 2rem;
+}
+
+.sign-up p {
+  font-size: 0.7rem;
+}
+
+.sign-up span {
+  color: #596d48;
 }
