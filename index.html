@@ -4,9 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign-Up Form</title>
     <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar"></div>
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          saepe totam, dolor fugit eum dicta molestias, repellat fugiat maxime
+          accusantium quis voluptatum porro itaque vero perferendis perspiciatis
+          quibusdam ullam expedita.
+        </p>
+        <p>You know you want to.</p>
+      </section>
+      <section>
+        <h3>Let's do this!</h3>
+        <div class="firstName">
+          <label for="first_name">FIRST NAME</label>
+          <input type="name" name="first_name" id="first_name" />
+        </div>
+        <div class="lastName">
+          <label for="last_name">LAST NAME</label>
+          <input type="name" name="last_name" id="last_name" />
+        </div>
+        <div class="email">
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="number">
+          <label for="number">PHONE NUMBER</label>
+          <input type="number" name="number" id="number" />
+        </div>
+        <div class="password">
+          <label for="password">PASSWORD</label
+          ><input type="password" name="password" id="password" />
+        </div>
+        <div class="confirm">
+          <label for="confirm">CONFIRM PASSWORD</label>
+          <input type="password" name="password" id="password" />
+        </div>
+      </section>
+
+      <section>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? Log in</p>
+      </section>
+    </div>
+  </body>
 </html>

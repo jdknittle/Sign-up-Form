@@ -1,0 +1,10 @@
+.sidebar {
+  height: 100px;
+  width: 40%;
+  background-image: url("images/background.jpg");
+}
+
+section {
+  width: 60%;
+  border: 1px solid red;
+}
